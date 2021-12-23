@@ -59,6 +59,13 @@ address {
   padding: 15px 0 0;
   background-color: #fff;
 }
+
+@media screen and (min-width: 768px) {
+
+.header{
+  padding: 0;
+}
+}
 /* ロゴ */
 .logo {
   width: 140px;
@@ -214,14 +221,14 @@ address {
   text-align: left;
 }
 /* 入場料（テーブル） */
+
+/* テーブル全体への指定 */
 .price-table {
   width: 100%;
   border-color: collapse;  
   font-size: 16px;
 
 }
-/* テーブル全体への指定 */
-
   /* テーブルの境界線が重ねて表示する */
   
 /* <thead>に対する指定 */

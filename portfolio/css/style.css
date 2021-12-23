@@ -13,7 +13,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   vertical-align: bottom;
   border-style: none;
@@ -184,7 +184,7 @@ li {
   flex: 1;
 }
 .main-visual-text p:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 /*--------------------------------
