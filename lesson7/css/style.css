@@ -225,7 +225,7 @@ address {
 /* テーブル全体への指定 */
 .price-table {
   width: 100%;
-  border-color: collapse;  
+  border-collapse: collapse;  
   font-size: 16px;
 
 }
@@ -240,7 +240,8 @@ background-color: #4184e2;
   
 
 /* <th>と<td>に対する指定 */
-.price-table th, .price-table td {
+.price-table th, 
+.price-table td {
 padding: 20px 15px;
 font-weight: 500;
 border: 1px solid #707070;
